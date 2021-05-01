@@ -44,19 +44,20 @@ df.to_sql('details', db_conn, if_exists='append', index=False)
 ```
 
 #### Experience:
-company: Five9 Inc.
-position: Test Automation Engineer
-Project Name: "CRM Integration"
-Project Abstract:
+- Company: Five9 Inc.
+  - Position: Test Automation Engineer
+  - Project Name: "CRM Integration"
+  - Project Abstract:
 “CRM Integration”. Five9 Integration with RightNow, Salesforce, MS Dynamics 365, Zendesk, and other SaaS. CRM Integration project is one of the main areas for development of our company. 
+- Company: [...]
 
 #### Education: 
-Nizhny Novgorod State University, "Calculus Mathematics and Cybernetics Faculty, Master in Informatics". (2007)
-Passed "Google Cloud Platform" trainings on coursera.org (2020).
-Hackathon team member:
-- "Sibur Challenge" participant (2019)
-- "Digital Breakthrough" (qualifying round and final) (2019)
-- "Teplo-Energo" - winner of the hackaton (2021)
+- Nizhny Novgorod State University, "Calculus Mathematics and Cybernetics Faculty, Master in Informatics". (2007)
+- Passed "Google Cloud Platform" trainings on coursera.org (2020).
+- Hackathon team member:
+  - "Sibur Challenge" participant (2019)
+  - "Digital Breakthrough" (qualifying round and final) (2019)
+  - "Teplo-Energo" - winner of the hackaton (2021)
 
 #### English:
-Good reading and writing skills; but need some more practice with speaking; 
+- Good reading and writing skills; but need some more practice with speaking; 
