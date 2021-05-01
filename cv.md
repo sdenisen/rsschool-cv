@@ -1,8 +1,8 @@
 ## Sergey Denisenko 
 
 #### Contact Info:
-* tel.: +7 (920) 254-93-94  — preferred means of communication
-* e-mail: sdenisen@ymail.com
+* tel.: __+7 (920) 254-93-94__— preferred means of communication
+* e-mail: __sdenisen@ymail.com__
 * city: Nizhny Novgorod, willing to relocate (Moscow, Saint Petersburg, Novosibirsk), prepared for business trips
 
 #### Summary: 
@@ -25,7 +25,8 @@ Knowledge of Design patterns for software development. TDD. Unit Tests, SOLID de
 
 #### Code examples: 
 [Link to code example (Python)](https://github.com/sdenisen/searchApp)
-```import sqlite3
+```python
+import sqlite3
 from pathlib import Path
 
 import pandas as pd
