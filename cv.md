@@ -1,42 +1,47 @@
 ## Sergey Denisenko 
 
 #### Contact Info:
-* tel: +7 (920) 254-93-94  — preferred means of communication
-* email: sdenisen@ymail.com
-* Nizhny Novgorod, willing to relocate (Moscow, Saint Petersburg, Novosibirsk), prepared for business trips
+* tel.: +7 (920) 254-93-94  — preferred means of communication
+* e-mail: sdenisen@ymail.com
+* city: Nizhny Novgorod, willing to relocate (Moscow, Saint Petersburg, Novosibirsk), prepared for business trips
 
 #### Summary: 
-
-I have a good experience with IT, including commercial
- software product development and some types of software test 
- automation like Regression, Load and Component.
-Usually use development best design principles like KISS, SOLID.
-   Good practical experience within an agile software development environment (preferably Scrum).
-    Self-starter with the ability to learn new things quickly.
-I'm a relentless learner. I try to find the best courses, 
+I have a good experience with IT, including commercial software product development and some types of software test 
+automation like Regression, Load and Component. Usually use development best design principles like __KISS__, __SOLID__.
+Good practical experience within an agile software development environment (preferably _Scrum_). 
+Self-starter with the ability to learn new things quickly. I'm a relentless learner. I try to find the best courses, 
 where I can get new experience in software development that improve my skills. 
 
 #### Skills:  
-Personal skills and competences:
-Programming Languages: Python, JavaScript, C#
-Operating Systems: MS Windows, Linux(for testing purpose)
-DB: MySQL, MSSQL
-
-Dev Env: JetBrains Software like: PyCharm, ReSharper, IntelliJ IDEA; MS Visual Studio;
-
-Tools: CVN, Perforce, GitLab; Jira, Rally Software.
-
-Frameworks/Technology: Django, .Net, Asp.Net, jQuery, Selenium, pytest, nHibernate, nUnit,
-
-Methodologies: Ajile (SCRUM, KANBAN), pair programming.
-Knowledge of Design patterns for software development.
-TDD. Unit Tests, SOLID design and other principles.
-
-Source Control Systems:
-Using different control version systems (CVN, CVS, Perforce, GitLab) and systems control recourses (ClearQuest, Jira, Rally Software Dev.).
+- Personal skills and competences:
+Knowledge of Design patterns for software development. TDD. Unit Tests, SOLID design and other principles.
+- Programming Languages: _Python_, _JavaScript_, _C#_, _Java_;
+- Operating Systems: _MS Windows_, _MacOS_, _Linux(for testing purpose); 
+- DB: _MySQL_, _MSSQL_;
+- Dev Env: JetBrains Software like: _PyCharm_, _ReSharper_, _IntelliJ IDEA_; MS Visual Studio;
+- Tools: _CVN_, _Perforce_, _GitLab_; _Jira_, _Rally Software_;
+- Frameworks/Technology: _Django_, _jQuery_, _React_, _Selenium_, _pytest_, _.Net_, _Asp.Net_;
+- Methodologies: Ajile (SCRUM, KANBAN), pair programming.
 
 #### Code examples: 
-https://github.com/sdenisen/searchApp
+[Link to code example (Python)](https://github.com/sdenisen/searchApp)
+```import sqlite3
+from pathlib import Path
+
+import pandas as pd
+
+print(Path(__file__).resolve().parent.parent)
+
+df = pd.read_excel(f"{Path(__file__).resolve().parent.parent}/data/excel_data.xlsx")
+
+db_conn = sqlite3.connect(f"{Path(__file__).resolve().parent.parent.parent}/db.sqlite3")
+
+c = db_conn.cursor()
+
+c.execute("CREATE TABLE details (id INTEGER primary key, asv_id INTEGER , full_name TEXT NOT NULL);")
+
+df.to_sql('details', db_conn, if_exists='append', index=False)
+```
 
 #### Experience:
 company: Five9 Inc.
@@ -55,18 +60,3 @@ Hackathon team member:
 
 #### English:
 Good reading and writing skills; but need some more practice with speaking; 
-
-
-
-1. First Name, Last Name (real ones)
-2. Contact Info (add several ways to contact you)
-3. Summary (your goal, wishes, reveal what is important for you, what do you want and why.
-Some kind of self-presentation. In case of lack of experience  Junior Developer sells his/her potential, his/her passion and ability to learn fast. You shouldn't think that everybody is going to teach you when you come to the workplace . Rather being a Junior means always
-learning new things from everywhere etc.).
-4. Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
-5. Code examples (LATEST)
-6. Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses,
-freelance projects - wherever they had the opportunity to demonstrate skills they have.
-Also it would be awesome if you add links to source code)
-7. Education (including courses, seminars, lectures, online learning)
-8. English (elaborate on what kind of practice you had, if any, how long it lasted and so on)
